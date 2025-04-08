@@ -80,6 +80,7 @@ class Constants {
       fxn = meridianDistance(xn) - c;
       xn = xn - fxn/derivativeM(xn);
       err = fxn.abs();
+      i++;
     }
     return xn;
   }
